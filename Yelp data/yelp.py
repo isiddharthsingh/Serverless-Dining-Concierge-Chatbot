@@ -3,11 +3,11 @@ import boto3
 from decimal import Decimal
 
 # Replace with your Yelp API key
-YELP_API_KEY = 'dheBp2rTAqgQ0fEw1LIUa10ieZW_w3LtFaoZFn3VyvUuzd-uuVRZi8qYLue_VXlUgMvhvNLKf8lRP86kdy_twwLCZO3AKH7U03m1vTpFGZub2xfoVqZqIGo55IUoZXYx'
+YELP_API_KEY = 'your yelp API key'
 
 # Replace with your AWS credentials and region
-AWS_ACCESS_KEY = 'AKIAZ7NEK3KCPTNXK2EG'
-AWS_SECRET_KEY = 'BmsRrmBSyHOI2u60JkWJq57OCM+61L5qOxitw0n+'
+AWS_ACCESS_KEY = 'yourawsaccesskey'
+AWS_SECRET_KEY = 'yourawssecretkey'
 AWS_REGION = 'us-east-1'
 
 # Initialize DynamoDB client
