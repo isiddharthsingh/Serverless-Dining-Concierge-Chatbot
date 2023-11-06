@@ -1,5 +1,6 @@
 # Serverless Dining Concierge Chatbot
 
-![image](https://github.com/isiddharthsingh/diningbot/assets/49589002/089ef3b0-65da-40f5-a40c-65c941598783)
+![image](https://github.com/isiddharthsingh/Serverless-Dining-Concierge-Chatbot/assets/49589002/e45efae8-6a86-4611-8baa-8582b9837aaa)
 
-![image](https://github.com/isiddharthsingh/diningbot/assets/49589002/0eee85a9-cfcf-4da3-a344-f75caee9f6f0)
+
+![image](https://github.com/isiddharthsingh/Serverless-Dining-Concierge-Chatbot/assets/49589002/f1b511c1-2cc1-4abb-b36e-66ef0aa01e1c)
