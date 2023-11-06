@@ -50,8 +50,8 @@ def lambda_handler(event, context):
     input_cuisine = message_body["Cuisine"]["StringValue"]
     print("lol0")
     print(input_cuisine)
-    es_username = "root"
-    es_password = "Root@123"
+    es_username = "elastic search username"
+    es_password = "elastic search password"
     region = "us-east-1"
     search_query = {"query":{"bool":{"must":[{"match":{"cuisine":input_cuisine}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}
     # Define the Elasticsearch search query
@@ -141,7 +141,7 @@ Enjoy your meal!""" % (message_body["Cuisine"]["StringValue"],
                 'Body': {'Text': {'Data': responseBody}},
                 'Subject': {'Data': 'Cuisine Recommendation'}
             },
-            Source='singhsiddhart24@gmail.com'
+            Source='yourmail@gmail.com'
         )
         print("sent mail")
         # Return the item as a JSON response
